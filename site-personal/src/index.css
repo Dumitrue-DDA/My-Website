@@ -1,49 +1,83 @@
+body {
+  margin: 0;
+  min-height: 100%;
+  max-height: 100%;
+  font-family: "Open-sans", Verdana, Helvetica, Arial;
+  font-weight: 100;
+}
 .navBar {
   /* position: fixed; */
   z-index: 1;
+  line-height: 65px;
+  margin: 0 0 5px 0;
 }
 
 .navBar ul {
   list-style-type: none;
   display: flex;
-  position: relative;
   align-content: center;
   justify-content: left;
-  background-color: darkgray;
-  height: 65px;
+  background-color: #333;
   margin: 0;
-  padding: 0 30px 0 30px;
+  padding: 0 30px;
 }
 
 .navBar li {
   cursor: pointer;
-  background-color: lightgreen;
+  background-color: rgb(105, 215, 195);
   transition: background-color 300ms linear 0s;
   align-items: center;
   justify-content: center;
 }
 
-.navBar li.active {
-  background-color: green;
-}
+.navBar li.active {}
 
 .navBar li div {
-  padding: 0px 10px 0px 10px;
-  line-height: 20px;
+  padding: 0px 10px;
   text-decoration: none;
   color: black;
 }
 
 .navBar li:hover {
-  background-color: green;
+  background-color: rgb(70, 170, 150);
 }
 
-Footer {
-  padding: 5px 10px 5px 10px;
+footer {
+  padding: 5px 10px;
+  margin: 5px 0 0 0;
+  background-color: #333;
+  color: #666;
+  display: table;
+  width: 100%;
 }
 
-body {
-  margin: 0;
-  min-height: 100%;
-  max-height: 100%;
+footer div {
+  width: 50%;
+  float: left;
+}
+
+footer div a {
+  color: #666;
+}
+
+footer div a:hover{
+  color:#b4b4b4;
+}
+
+footer div img {
+  max-height: 20px ;
+  margin-right: 5px;
+}
+footer div span {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.footer-left {
+  margin-right: -50%;
+}
+
+.footer-right {
+  margin-left: 50%;
 }
