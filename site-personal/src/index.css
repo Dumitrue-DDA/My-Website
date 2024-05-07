@@ -1,69 +1,68 @@
-body {
+:root { /* for color consistency */
+  --green: rgb(105, 215, 195);
+  --darkgreen: rgb(70, 170, 150);
+}
+body { 
   margin: 0;
   min-height: 100%;
   max-height: 100%;
   font-family: "Open-sans", Verdana, Helvetica, Arial;
   font-weight: 100;
+  word-wrap: break-word;
 }
-.navBar {
-  /* position: fixed; */
+/* header section */
+header {
+  position: relative;    
   z-index: 1;
-  line-height: 65px;
+  display: block;
+  height: 65px;
+  width: 100%;
+  background-color: #333;  
   margin: 0 0 5px 0;
 }
-
+.navBar {
+  position: fixed; 
+  line-height: 65px;
+}
 .navBar ul {
   list-style-type: none;
   display: flex;
   align-content: center;
   justify-content: left;
-  background-color: #333;
   margin: 0;
   padding: 0 30px;
 }
-
 .navBar li {
   cursor: pointer;
-  background-color: rgb(105, 215, 195);
+  background-color: var(--green);
   transition: background-color 300ms linear 0s;
   align-items: center;
   justify-content: center;
 }
-
-.navBar li.active {}
-
 .navBar li div {
   padding: 0px 10px;
   text-decoration: none;
   color: black;
 }
-
 .navBar li:hover {
-  background-color: rgb(70, 170, 150);
+  background-color: var(--darkgreen);
 }
-
+/* footer section */
 footer {
-  padding: 5px 10px;
   margin: 5px 0 0 0;
   background-color: #333;
   color: #666;
-  display: table;
+  display: grid;
+  gap: 10px;
   width: 100%;
+  padding: 0 10px 0 10px;
 }
-
-footer div {
-  width: 50%;
-  float: left;
-}
-
 footer div a {
   color: #666;
 }
-
 footer div a:hover{
   color:#b4b4b4;
 }
-
 footer div img {
   max-height: 20px ;
   margin-right: 5px;
@@ -73,11 +72,13 @@ footer div span {
   align-items: center;
   margin: 5px 0;
 }
-
-.footer-left {
-  margin-right: -50%;
+footer div hr {
+  background-color: var(--green);
+  border-color: var(--green);
+  margin-right: 50px;
 }
-
-.footer-right {
-  margin-left: 50%;
+@media only screen and (min-width: 959px){
+  footer{
+    grid-template-columns: 1fr 1fr;
+  }
 }
