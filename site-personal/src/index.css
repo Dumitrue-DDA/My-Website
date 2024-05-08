@@ -18,7 +18,7 @@ header {
   height: 65px;
   width: 100%;
   background-color: #333;  
-  margin: 0 0 5px 0;
+  margin: 0;
 }
 .navBar {
   position: fixed; 
@@ -49,16 +49,18 @@ header {
 }
 /* footer section */
 footer {
-  margin: 5px 0 0 0;
+  z-index: 1;
+  margin: 0;
   background-color: #333;
   color: #666;
   display: grid;
   gap: 10px;
-  width: 100%;
   padding: 0 10px 0 10px;
 }
 footer div a {
-  color: #666;
+  color: #666;  
+  transition: color 150ms linear;
+
 }
 footer div a:hover{
   color:#b4b4b4;
