@@ -1,0 +1,36 @@
+footer {
+    z-index: 1;
+    margin: 0;
+    background-color: #333;
+    color: #666;
+    display: grid;
+    gap: 10px;
+    padding: 0 10px 0 10px;
+  }
+  footer div a {
+    color: #666;  
+    transition: color 150ms linear;
+  
+  }
+  footer div a:hover{
+    color:#b4b4b4;
+  }
+  footer div img {
+    max-height: 20px ;
+    margin-right: 5px;
+  }
+  footer div span {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+  }
+  footer div hr {
+    background-color: var(--green);
+    border-color: var(--green);
+    margin-right: 50px;
+  }
+  @media only screen and (min-width: 959px){
+    footer{
+      grid-template-columns: 1fr 1fr;
+    }
+  }

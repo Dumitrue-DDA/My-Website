@@ -5,7 +5,7 @@ function Headers() {
             <nav className="navBar">
                 <ul>
                     <li id="active"><div>Home</div></li>
-                    <li><div>About Me</div></li>
+                    <li><div>Projects</div></li>
                 </ul>
             </nav>
         </header>
