@@ -10,7 +10,7 @@ function Home() {
                     <div id="img-container">
                         <img src={require("../assets/Me-Maramures.jpeg")} alt={""} id="my-image"/>
                     </div>
-                        <h3>About Me</h3>
+                        <h2>About Me</h2>
                         <hr />
                         <p>
                             I am a student of Computer Science for Economics, currently looking for oportunities to learn in a 
@@ -22,8 +22,8 @@ function Home() {
                             accesible to anyone who wants to view them.
                         </p> </article>
                         <article>
-                        <h3>Skills</h3> <hr />
-                        <h4>Programming:</h4> 
+                        <h2>Skills</h2> <hr />
+                        <h3>Programming:</h3> 
                         <div id="programming-skills">
                             <ul id="languages-list">
                                 <li><label>C++</label></li>
@@ -46,19 +46,82 @@ function Home() {
                                 <li><progress value={2} max={5}/></li>
                             </ul> </div>
                         <div style={{display:'grid', gridTemplateColumns:'1fr 1fr'}}>
-                        <div>
-                        <h4>Digital Skills</h4>
-                            Microsoft Office, Adobe Photoshop, Adobe Premiere Pro, SAS Enterprise Guide
+                        <div style={{marginLeft: '15px'}}>
+                            <h3>Digital Skills</h3>
+                                Microsoft Office, Adobe Photoshop, Adobe Premiere Pro, SAS Enterprise Guide
                         </div>
                         <div>
-                        <h4>Languages</h4>
-                        
-                            Romanian: <b>Native</b><br/>
-                            English: <b>B2</b>
+                            <h3>Languages</h3>
+                                Romanian: <b>Native</b><br/>
+                                English: <b>B2</b>
                         </div> </div> </article>
                     <article>
-                        <h3>Volunteering Experience</h3> <hr />
-
+                        <img src={require("../assets/city-tour.png")} alt="ESN-flag" 
+                            style={{width:'25%', float:'right',
+                            filter:"drop-shadow(10px 5px var(--darkgreen))"}}/>
+                        <h2>Volunteering Experience</h2>
+                        <div>
+                            <img src={require("../assets/esn-star.png")} alt="ESN Logo"
+                            style={{float:'left', height:'60px', marginRight:'5px'}} />
+                            <span><i>March 2024 - Present</i></span>
+                            <h3>ESN UniBucharest</h3>                           
+                            <span><i>Bucharest, Romania</i></span>
+                            <ul>
+                                <li>Part of the events department</li>
+                                <li>Working alongside the other volunteers to make great experiences for the 
+                                    Erasmus students in Bucharest</li>
+                                <li>Participated at the "Escape to Vama Veche" national event</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <h2>Education</h2>
+                        <img src={require("../assets/URA-logo.png")} alt="ESN Logo"
+                            style={{float:'left', height:'60px', marginRight:'5px'}} />
+                        <span><i>2022 - Present</i></span>
+                        <h3>Bachelor of Computer Science for Economics</h3>
+                        <span><i>Faculty of Computer Science for Business Management, Romanian-American University,
+                        Bucharest, Romania</i></span>
+                        <ul>
+                            <li>Study Field: Computer Science, Cybernetics, Statistics and Economics</li>
+                            <li>Taking optional courses in management</li>
+                            <li>Finished the first year with an average grade of 88.5%</li>
+                        </ul>
+                        <hr />
+                        <img src={require("../assets/uhk-logo.png")} alt="ESN Logo"
+                            style={{float:'left', height:'60px', marginRight:'5px'}} />
+                        <span><i>September 2023 - January 2024</i></span>
+                        <h3>Erasmus Mobility</h3>
+                        <span><i>Faculty of Informatics and Management, University of Hradec Králové,
+                        Hradec Králové, Czech Republic</i></span>
+                        <ul>
+                            <li>Finished the semester with a grade of 84%, having taken 4 out of 5 of the exams in the
+                                span of just 2 days.</li>
+                            <li>Improved my communication skills (especially in English) and adaptability significantly</li>
+                        </ul>
+                        <hr />
+                        <img src={require("../assets/URA-logo.png")} alt="ESN Logo"
+                            style={{float:'left', height:'60px', marginRight:'5px'}} />
+                        <span><i>21 - 25 November 2022</i></span>
+                        <h3>“Introduction to Information Systems” Course</h3>
+                        <span><i>Held by Professor Weiqi Li, Ph.D. from the University of Michigan-Flint, USA at the
+                            Romanian-American University, Bucharest, Romania</i></span>
+                        <ul>
+                            <li>Learned about the fundamental concepts of Information Systems
+                                 and their role in an organization</li>
+                            <li>Learned about Database Management Systems and Enterprise Resource Planning Systems</li>
+                        </ul>
+                        <hr />
+                        <img src={require("../assets/LTT-logo.png")} alt="ESN Logo"
+                            style={{float:'left', height:'60px', marginRight:'5px'}} />
+                        <span><i>2018 - 2022</i></span>
+                        <h3>Mathematics and Informatics Profile High School</h3>
+                        <span><i>“Traian” High School, Bucharest, Romania</i></span>
+                        <ul>
+                            <li>Started my passion for programming and deepened my passion for computers</li>
+                            <li>Participated at a interdisciplinary science competition (“Cuza Smart” 2019) and a
+                                mathematics symposium (“Fascinating Mathematics” 2019)</li>
+                        </ul>
                     </article>
                 </div>
             </div>

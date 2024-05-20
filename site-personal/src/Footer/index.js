@@ -3,7 +3,7 @@ function Footer() {
     return (
         <footer>
             <div className="footer-left">
-                <p> Last modified: 16th of May 2024
+                <p> Last modified: 17th of May 2024
                     <hr />
                     The main purpose of this website was learning to use the React library </p> </div>
             <div className="footer-right">
