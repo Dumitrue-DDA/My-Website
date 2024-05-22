@@ -1,5 +1,12 @@
 import "./Home.css"
 
+import meMaramures from "../../assets/Me-Maramures.jpeg"
+import meCityTour from "../../assets/city-tour.png"
+import esnStar from "../../assets/esn-star.png"
+import rauLogo from "../../assets/URA-logo.png"
+import uhkLogo from "../../assets/uhk-logo.png"
+import lttLogo from "../../assets/LTT-logo.png"
+
 function Home() {
     return(
         <div id="main-container">
@@ -8,7 +15,7 @@ function Home() {
                 <h3>Welcome to my website!</h3>
                 <article id="about-me-article">
                     <div id="img-container">
-                        <img src="../assets/Me-Maramures.jpeg" alt={""} id="my-image"/>
+                        <img src={meMaramures} alt={"me"} id="my-image"/>
                     </div>
                         <h2>About Me</h2>
                         <hr />
@@ -56,12 +63,12 @@ function Home() {
                                 English: <b>B2</b>
                         </div> </div> </article>
                     <article>
-                        <img src="../assets/city-tour.png" alt="ESN-flag" 
+                        <img src={meCityTour} alt="me-with-the-ESN-flag" 
                             style={{width:'25%', float:'right',
                             filter:"drop-shadow(10px 5px var(--darkgreen))"}}/>
                         <h2>Volunteering Experience</h2>
                         <div>
-                            <img src="../assets/esn-star.png" alt="ESN Logo"
+                            <img src={esnStar} alt="ESN-Logo"
                             style={{float:'left', height:'60px', marginRight:'5px'}} />
                             <span><i>March 2024 - Present</i></span>
                             <h3>ESN UniBucharest</h3>                           
@@ -76,7 +83,7 @@ function Home() {
                     </article>
                     <article>
                         <h2>Education</h2>
-                        <img src="../assets/URA-logo.png" alt="ESN Logo"
+                        <img src={rauLogo} alt="RAU-Logo"
                             style={{float:'left', height:'60px', marginRight:'5px'}} />
                         <span><i>2022 - Present</i></span>
                         <h3>Bachelor of Computer Science for Economics</h3>
@@ -88,7 +95,7 @@ function Home() {
                             <li>Finished the first year with an average grade of 88.5%</li>
                         </ul>
                         <hr />
-                        <img src="../assets/uhk-logo.png" alt="ESN Logo"
+                        <img src={uhkLogo} alt="UHK-Logo"
                             style={{float:'left', height:'60px', marginRight:'5px'}} />
                         <span><i>September 2023 - January 2024</i></span>
                         <h3>Erasmus Mobility</h3>
@@ -100,7 +107,7 @@ function Home() {
                             <li>Improved my communication skills (especially in English) and adaptability significantly</li>
                         </ul>
                         <hr />
-                        <img src="../assets/URA-logo.png" alt="ESN Logo"
+                        <img src={rauLogo} alt="RAU-Logo"
                             style={{float:'left', height:'60px', marginRight:'5px'}} />
                         <span><i>21 - 25 November 2022</i></span>
                         <h3>“Introduction to Information Systems” Course</h3>
@@ -112,7 +119,7 @@ function Home() {
                             <li>Learned about Database Management Systems and Enterprise Resource Planning Systems</li>
                         </ul>
                         <hr />
-                        <img src="../assets/LTT-logo.png" alt="ESN Logo"
+                        <img src={lttLogo} alt="LTT-Logo"
                             style={{float:'left', height:'60px', marginRight:'5px'}} />
                         <span><i>2018 - 2022</i></span>
                         <h3>Mathematics and Informatics Profile High School</h3>
