@@ -8,7 +8,7 @@ function Home() {
                 <h3>Welcome to my website!</h3>
                 <article id="about-me-article">
                     <div id="img-container">
-                        <img src={require("../assets/Me-Maramures.jpeg")} alt={""} id="my-image"/>
+                        <img src="../assets/Me-Maramures.jpeg" alt={""} id="my-image"/>
                     </div>
                         <h2>About Me</h2>
                         <hr />
@@ -56,12 +56,12 @@ function Home() {
                                 English: <b>B2</b>
                         </div> </div> </article>
                     <article>
-                        <img src={require("../assets/city-tour.png")} alt="ESN-flag" 
+                        <img src="../assets/city-tour.png" alt="ESN-flag" 
                             style={{width:'25%', float:'right',
                             filter:"drop-shadow(10px 5px var(--darkgreen))"}}/>
                         <h2>Volunteering Experience</h2>
                         <div>
-                            <img src={require("../assets/esn-star.png")} alt="ESN Logo"
+                            <img src="../assets/esn-star.png" alt="ESN Logo"
                             style={{float:'left', height:'60px', marginRight:'5px'}} />
                             <span><i>March 2024 - Present</i></span>
                             <h3>ESN UniBucharest</h3>                           
@@ -76,7 +76,7 @@ function Home() {
                     </article>
                     <article>
                         <h2>Education</h2>
-                        <img src={require("../assets/URA-logo.png")} alt="ESN Logo"
+                        <img src="../assets/URA-logo.png" alt="ESN Logo"
                             style={{float:'left', height:'60px', marginRight:'5px'}} />
                         <span><i>2022 - Present</i></span>
                         <h3>Bachelor of Computer Science for Economics</h3>
@@ -88,7 +88,7 @@ function Home() {
                             <li>Finished the first year with an average grade of 88.5%</li>
                         </ul>
                         <hr />
-                        <img src={require("../assets/uhk-logo.png")} alt="ESN Logo"
+                        <img src="../assets/uhk-logo.png" alt="ESN Logo"
                             style={{float:'left', height:'60px', marginRight:'5px'}} />
                         <span><i>September 2023 - January 2024</i></span>
                         <h3>Erasmus Mobility</h3>
@@ -100,7 +100,7 @@ function Home() {
                             <li>Improved my communication skills (especially in English) and adaptability significantly</li>
                         </ul>
                         <hr />
-                        <img src={require("../assets/URA-logo.png")} alt="ESN Logo"
+                        <img src="../assets/URA-logo.png" alt="ESN Logo"
                             style={{float:'left', height:'60px', marginRight:'5px'}} />
                         <span><i>21 - 25 November 2022</i></span>
                         <h3>“Introduction to Information Systems” Course</h3>
@@ -112,7 +112,7 @@ function Home() {
                             <li>Learned about Database Management Systems and Enterprise Resource Planning Systems</li>
                         </ul>
                         <hr />
-                        <img src={require("../assets/LTT-logo.png")} alt="ESN Logo"
+                        <img src="../assets/LTT-logo.png" alt="ESN Logo"
                             style={{float:'left', height:'60px', marginRight:'5px'}} />
                         <span><i>2018 - 2022</i></span>
                         <h3>Mathematics and Informatics Profile High School</h3>

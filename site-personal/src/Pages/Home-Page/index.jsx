@@ -1,5 +1,5 @@
-import Header from "../Header";
-import Footer from "../Footer";
+import Header from "../../Elements/Header";
+import Footer from "../../Elements/Footer";
 import Home from "./Home";
 
 function Homepage() {
@@ -12,4 +12,4 @@ function Homepage() {
   );
 }
 
-export default Homepage;
+export default Homepage
