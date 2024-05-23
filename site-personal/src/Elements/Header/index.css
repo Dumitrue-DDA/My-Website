@@ -8,28 +8,33 @@ header {
     margin: 0;
   }
   .navBar {
-    line-height: 65px;
-  }
-  .navBar ul {
-    list-style-type: none;
+    line-height: 65px;   
     display: flex;
     align-content: center;
     justify-content: left;
     margin: 0;
     padding: 0 30px;
+
   }
-  .navBar li {
+  .a {
     cursor: pointer;
-    background-color: var(--green);
-    transition: background-color 300ms linear 0s;
     align-items: center;
     justify-content: center;
   }
-  .navBar li div {
+  .active {
+    background-color: var(--green);
+  }
+  .inactive {
+    background-color: var(--darkgreen);
+    transition: background-color 300ms linear 0s;
+  }
+  a.inactive:hover {
+    background-color: var(--green);
+
+  }
+  .navBar a {
     padding: 0px 10px;
     text-decoration: none;
     color: black;
   }
-  .navBar li:hover {
-    background-color: var(--darkgreen);
-  }
+

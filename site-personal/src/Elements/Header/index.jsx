@@ -1,16 +1,27 @@
-import "./index.css"
+import "./index.css";
+import {NavLink} from "react-router-dom";
 
-function Headers() {
+function Header() {
     return (
         <header>
             <nav className="navBar">
-                <ul>
-                    <li id="active"><div>Home</div></li>
-                    <li><div>Projects</div></li>
-                </ul>
-            </nav>
+                    <NavLink 
+                        to="/"
+                        className={({ isActive }) =>
+                            isActive ? "active" : "inactive"
+                        }>
+                        Home
+                    </NavLink>
+                    <NavLink 
+                        to="/Projects"
+                        className={({ isActive }) =>
+                            isActive ? "active" : "inactive"
+                        }>
+                        Projects
+                    </NavLink> 
+                </nav> 
         </header>
     );
 }
 
-export default Headers;
+export default Header;
