@@ -1,5 +1,3 @@
 # Website Personal
  
-Content :
-    Pages : Home, About me ...
-    Page layout : Header + nav, Body, Footer (Contact info, site info)
+A resume website made with the React library.
