@@ -64,39 +64,39 @@ function Home() {
                         </div> </div> </article>
                     <article>
                         <img src={meCityTour} alt="me-with-the-ESN-flag" 
-                            style={{width:'25%', float:'right',
+                            style={{width:'30%',minWidth:'200px', float:'right',
                             filter:"drop-shadow(10px 5px var(--darkgreen))"}}/>
                         <h2>Volunteering Experience</h2>
                         <div>
-                            <img src={esnStar} alt="ESN-Logo"
-                            style={{float:'left', height:'60px', marginRight:'5px'}} />
+                            <a href="https://unibucharest.esn.ro/" rel="noreferrer noopener" target="_blank">
+                                <img src={esnStar} alt="ESN-Logo" className="logoLink" /></a>
                             <span><i>March 2024 - Present</i></span>
                             <h3>ESN UniBucharest</h3>                           
                             <span><i>Bucharest, Romania</i></span>
                             <ul>
-                                <li>Part of the events department</li>
+                                <li>Part of the events department.</li>
                                 <li>Working alongside the other volunteers to make great experiences for the 
-                                    Erasmus students in Bucharest</li>
-                                <li>Participated at the "Escape to Vama Veche" national event</li>
+                                    Erasmus students in Bucharest.</li>
+                                <li>Participated at the "Escape to Vama Veche" national event.</li>
                             </ul>
                         </div>
                     </article>
                     <article>
                         <h2>Education</h2>
-                        <img src={rauLogo} alt="RAU-Logo"
-                            style={{float:'left', height:'60px', marginRight:'5px'}} />
+                        <a href="https://www.rau.ro/?lang=en" rel="noreferrer noopener" target="_blank">
+                            <img src={rauLogo} alt="RAU-Logo" className="logoLink" /></a>
                         <span><i>2022 - Present</i></span>
                         <h3>Bachelor of Computer Science for Economics</h3>
                         <span><i>Faculty of Computer Science for Business Management, Romanian-American University,
                         Bucharest, Romania</i></span>
                         <ul>
-                            <li>Study Field: Computer Science, Cybernetics, Statistics and Economics</li>
-                            <li>Taking optional courses in management</li>
-                            <li>Finished the first year with an average grade of 88.5%</li>
+                            <li>Study Field: Computer Science, Cybernetics, Statistics and Economics.</li>
+                            <li>Taking optional courses in management.</li>
+                            <li>Finished the first year with an average grade of 88.5%.</li>
                         </ul>
                         <hr />
-                        <img src={uhkLogo} alt="UHK-Logo"
-                            style={{float:'left', height:'60px', marginRight:'5px'}} />
+                        <a href="https://www.uhk.cz/" rel="noreferrer noopener" target="_blank">
+                            <img src={uhkLogo} alt="UHK-Logo" className="logoLink" /></a>
                         <span><i>September 2023 - January 2024</i></span>
                         <h3>Erasmus Mobility</h3>
                         <span><i>Faculty of Informatics and Management, University of Hradec Králové,
@@ -104,30 +104,30 @@ function Home() {
                         <ul>
                             <li>Finished the semester with a grade of 84%, having taken 4 out of 5 of the exams in the
                                 span of just 2 days.</li>
-                            <li>Improved my communication skills (especially in English) and adaptability significantly</li>
+                            <li> Significantly improved my communication skills (especially in English) and adaptability.</li>
                         </ul>
                         <hr />
-                        <img src={rauLogo} alt="RAU-Logo"
-                            style={{float:'left', height:'60px', marginRight:'5px'}} />
+                        <a href="https://www.rau.ro/?lang=en" rel="noreferrer noopener" target="_blank">
+                            <img src={rauLogo} alt="RAU-Logo" className="logoLink" /></a>
                         <span><i>21 - 25 November 2022</i></span>
                         <h3>“Introduction to Information Systems” Course</h3>
                         <span><i>Held by Professor Weiqi Li, Ph.D. from the University of Michigan-Flint, USA at the
                             Romanian-American University, Bucharest, Romania</i></span>
                         <ul>
                             <li>Learned about the fundamental concepts of Information Systems
-                                 and their role in an organization</li>
-                            <li>Learned about Database Management Systems and Enterprise Resource Planning Systems</li>
+                                 and their role in an organization.</li>
+                            <li>Learned about Database Management Systems and Enterprise Resource Planning Systems.</li>
                         </ul>
                         <hr />
-                        <img src={lttLogo} alt="LTT-Logo"
-                            style={{float:'left', height:'60px', marginRight:'5px'}} />
+                        <a href="https://www.liceultraianbucuresti.ro/" rel="noreferrer noopener" target="_blank">
+                            <img src={lttLogo} alt="LTT-Logo" className="logoLink" /></a>
                         <span><i>2018 - 2022</i></span>
                         <h3>Mathematics and Informatics Profile High School</h3>
-                        <span><i>“Traian” High School, Bucharest, Romania</i></span>
+                        <span><i>“Traian” Theoretical High School, Bucharest, Romania</i></span>
                         <ul>
-                            <li>Started my passion for programming and deepened my passion for computers</li>
+                            <li>Started my passion for programming and deepened my passion for computers.</li>
                             <li>Participated at a interdisciplinary science competition (“Cuza Smart” 2019) and a
-                                mathematics symposium (“Fascinating Mathematics” 2019)</li>
+                                mathematics symposium (“Fascinating Mathematics” 2019).</li>
                         </ul>
                     </article>
                 </div>

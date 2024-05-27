@@ -5,7 +5,7 @@
 }
 
 #main-content {
-    width: 80%;
+    width: 90%;
     margin: auto; 
 }
 
@@ -26,6 +26,18 @@
     border-radius: 10px;
 }
 
+.logoLink {
+    float: left;
+    height: 60px;
+    margin: 5px 15px 10px 0px;
+    transition: 200ms linear;
+}
+
+.logoLink:hover {
+    transform: scale(1.25);
+    filter: drop-shadow(-5px 2.5px 1px var(--green));
+}
+
 #programming-skills {
     display: flex;
 
@@ -40,11 +52,13 @@ progress {
     -webkit-appearance: none;
     appearance: none;
 }
+
 progress::-webkit-progress-bar {
     background-color: #000000; /* Background color of the progress bar */
     border-radius: 10px;
     overflow: hidden;
 }
+
 progress::-webkit-progress-value {
     background-color: var(--darkgreen); /* Color of the progress value */
     border-radius: 10px 0 0 10px;
