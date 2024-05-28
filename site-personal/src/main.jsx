@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Homepage from "./Pages/Home-Page";
+import Home from "./Pages/Home";
+import Hobbies from './Pages/Hobbies';
 import ErrorPage from './Pages/Error-Page';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import './index.css'
@@ -8,9 +9,14 @@ import './index.css'
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Homepage/>,
-    errorElement:<ErrorPage/>,
+    element: <Home/>,
+    errorElement: <ErrorPage/>,
   },
+  {
+    path: "/Hobbies",
+    element: <Hobbies/>,
+    errorElement: <ErrorPage/>,
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

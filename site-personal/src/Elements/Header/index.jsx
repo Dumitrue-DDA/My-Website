@@ -19,6 +19,13 @@ function Header() {
                         }>
                         Projects
                     </NavLink> 
+                    <NavLink 
+                        to="/Hobbies"
+                        className={({ isActive }) =>
+                            isActive ? "active" : "inactive"
+                        }>
+                        Hobbies
+                    </NavLink>
                 </nav> 
         </header>
     );

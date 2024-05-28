@@ -1,4 +1,7 @@
-import "./Home.css"
+import "./index.css"
+
+import Header from "../../Elements/Header";
+import Footer from "../../Elements/Footer";
 
 import meMaramures from "../../assets/Me-Maramures.jpeg"
 import meCityTour from "../../assets/city-tour.png"
@@ -8,14 +11,16 @@ import uhkLogo from "../../assets/uhk-logo.png"
 import lttLogo from "../../assets/LTT-logo.png"
 
 function Home() {
-    return(
-        <div id="main-container">
+  return (
+    <>
+      <Header />
+      <body id="main-container">
             <div id="main-content">
                 <h1>My Name is Dumitru-Andrei Despina</h1>
                 <h3>Welcome to my website!</h3>
                 <article id="about-me-article">
                     <div id="img-container">
-                        <img src={meMaramures} alt={"me"} id="my-image"/>
+                        <img src={meMaramures} alt={"me"}/>
                     </div>
                         <h2>About Me</h2>
                         <hr />
@@ -131,8 +136,10 @@ function Home() {
                         </ul>
                     </article>
                 </div>
-            </div>
-    );
+            </body>
+      <Footer />
+    </>
+  );
 }
 
 export default Home;

@@ -23,11 +23,13 @@ function Footer() {
                     </span>
                     <span> 
                         <ul id="button-container">
-                            <li class="button"> <a href="https://www.linkedin.com/in/dumitru-andrei-despina/"> 
-                                <img src={linkedInIcon} alt={"linkedin"}/></a> 
+                            <li className="button">
+                                <a href="https://www.linkedin.com/in/dumitru-andrei-despina/" rel="noreferrer noopener" target="_blank">
+                                    <img src={linkedInIcon} alt={"linkedin"}/></a>
                             </li>
-                            <li class="button"> <a href="https://github.com/Dumitrue-DDA"> 
-                                <img src={githubIcon} alt={"github"}/></a> 
+                            <li className="button">
+                                <a href="https://github.com/Dumitrue-DDA" rel="noreferrer noopener" target="_blank">
+                                    <img src={githubIcon} alt={"github"}/></a>
                             </li>
                         </ul>
                     </span> </p> </div>
